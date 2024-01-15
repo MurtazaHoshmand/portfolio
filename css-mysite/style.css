@@ -1,0 +1,126 @@
+body{
+    color: #40514e;
+    margin: 0; 
+    background-color: #E4F9F5;
+}
+p{
+    line-height: 1.9;
+}
+h1,h2, h3{
+    color: #11999e;
+    margin-bottom: 20px;
+}
+hr{
+    width: 5%;
+    border: none;
+    border-top: 5px dotted gray;
+    margin: 80px auto;
+    
+}
+.introduction{
+    position: absolute;
+    width: 600px;
+    height: 250px;
+    border: 5px solid dotted;
+    border-radius: 10%;
+    background-color: #E4F9F5;
+    margin: auto;
+    left: 340px;
+    top: 160px;
+    text-align: center;
+    opacity: 0.8;
+}
+.top-container{
+    background-color: #E4F9F5;
+    margin: auto;
+    width: 100%;
+}
+
+#image{
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+    z-index: -1;    
+}
+#name{
+    color: #11999e;
+    font-size: 4rem;
+     
+}
+#title{
+    color: #11999e;
+    font-size: 2.5rem;
+}
+#icon-image{
+    margin: 10px 0 0 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+}
+#skill-image, #good-photo{
+    width: 25%;
+    border-radius: 50%;
+    
+}
+#skill-image{
+    float: left;
+    margin-right: 30px
+}
+#good-photo{
+    float: right;
+    margin-left: 30px;
+}
+.middle-container{
+    background-color: #E4F9F5;
+    text-align: center;
+    width: 100%;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    
+}
+.contact{
+    width: 30%;
+    margin: auto;
+}
+.intro{
+    width: 30%;
+    margin: 50px auto;
+}
+
+.contact-button{
+    background-color: #11999e;
+    border-radius: 10%;
+    border: none;
+    color: white;
+    margin: 40px;
+    padding: 5px 10px;
+}
+.contact-button:hover{
+    background-color: #2bc4ad;
+}
+.bottom-container{
+    background-color: #11999e;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0 5px 0;;
+}
+.last{
+    color: aliceblue;
+    margin: 20px auto 15px;
+    font-size: 13px;
+}
+.s-m{
+    margin: 5px;
+    padding: 8px;
+    text-decoration: none;
+    color: navy;;
+}
+.s-m:hover{
+    background-color: #66b4b4;
+    color: white;
+    border-radius: 10%;
+}
